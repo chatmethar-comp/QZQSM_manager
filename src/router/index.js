@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import ConsoleView from "../views/ConsoleView.vue";
+import AskForHelpView from "../views/AskForHelpView.vue";
+import ThankYouView from "../views/ThankYouView.vue";
+import FormView from "../views/FormView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,23 +16,23 @@ const router = createRouter({
     {
       path: "/console",
       name: "console",
-      component: import("../views/ConsoleView.vue"),
+      component: ConsoleView,
     },
     {
       path: "/ask-for-help",
       name: "askForHelp",
-      component: import("../views/AskForHelpView.vue"),
+      component: AskForHelpView,
     },
     {
       path: "/form",
       name: "form",
-      component: import("../views/FormView.vue"),
+      component: FormView,
       props: true,
     },
     {
       path: "/thank-you",
       name: "thankYou",
-      component: import("../views/ThankYouView.vue"),
+      component: ThankYouView,
     },
     {
       path: "/about",
