@@ -1,5 +1,7 @@
 <template>
   <div class="h-screen bg-primarylight">
+    <div class="absolute z-50 w-full text-center top-16 font-bold text-4xl text-opacity-40 text-primary">ミ知らせ</div>
+
       <div class="h-fit translate-y-1/2  thank-you-view p-8 bg-white shadow-lg max-w-sm mx-auto rounded-lg w-full relative">
         <div class=" w-full flex justify-center">
             <CheckCircleIcon class="w-20 h-20 text-green-500 " />

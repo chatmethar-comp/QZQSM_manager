@@ -1,5 +1,6 @@
 <template>
   <div class="h-screen bg-primarylight">
+    <div class="absolute z-50 w-full text-center top-16 font-bold text-4xl text-opacity-40 text-primary">ミ知らせ</div>
     <div class="w-full max-w-sm translate-y-1/2 mx-auto p-8 bg-white rounded-lg shadow-lg">
       <div class="heading mb-2">
           <h2 class="text-2xl font-bold">
